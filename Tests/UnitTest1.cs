@@ -57,6 +57,6 @@ public class Tests
         float prod = Calculator.Multiply(2, 5);
         if (prod == 10)
             Assert.Pass();
-        Assert.Fail($"La somma dovrebbe essere 10, invece è {prod}");
+        Assert.Fail($"Il prodotto dovrebbe essere 10, invece è {prod}");
     }
 }
